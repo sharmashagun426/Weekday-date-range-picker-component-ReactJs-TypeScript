@@ -1,0 +1,55 @@
+.weekday-date-picker {
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .header button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .days span {
+    display: block;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .empty {
+    visibility: hidden;
+  }
+  
+  
+  .weekend {
+    color: #ccc;
+  }
+  
+  .selected {
+    background-color: lightblue;
+  }
+  
+  .date {
+    cursor: pointer;
+  }
+  
+  .date:hover,
+  .selected {
+    background-color: lightblue;
+  }
+  
+  
